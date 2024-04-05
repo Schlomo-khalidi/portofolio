@@ -1,0 +1,27 @@
+export default {
+    name:"testimonials",
+    Title:"Testimonials",
+    type:"document",
+    fields:[
+        {
+            name:"name",
+            title:"Name",
+            type:"string"
+        },
+        {
+            name:"company",
+            title:"Company",
+            type:"string"
+        },
+        {
+            name:"imageUrl",
+            title:"ImgURL",
+            type:"image"
+        },
+        {
+            name:"feedback",
+            title:"Feedback",
+            type:"string"
+        },
+    ]
+}
